@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:name="vector" android:height="300.0dip" android:width="300.0dip" android:viewportWidth="300.0" android:viewportHeight="300.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <group android:name="group" android:pivotX="150.0" android:pivotY="150.0">
+        <path android:name="path" android:pathData="M 79.362 29.126 C 100.103 16.97 124.244 10 150 10 C 175.756 10 199.897 16.97 220.638 29.126 M 79.362 270.874 C 37.881 246.564 10 201.512 10 150 M 290 150 C 290 201.512 262.119 246.564 220.638 270.874" android:strokeColor="#ff43c8f5" android:strokeWidth="1.0" android:strokeAlpha="0.1" />
+    </group>
+    <group android:name="group_1" android:pivotX="150.0" android:pivotY="150.0">
+        <path android:name="path_1" android:pathData="M 215.592 37.759 C 254.111 60.334 280 102.167 280 150 M 20 150 C 20 102.167 45.889 60.334 84.408 37.759 M 215.592 262.241 C 196.333 273.528 173.916 280 150 280 C 126.084 280 103.667 273.528 84.408 262.241" android:strokeColor="#ff43c8f5" android:strokeWidth="1.0" android:strokeAlpha="0.1" />
+    </group>
+    <group android:name="group_2" android:pivotX="150.0" android:pivotY="150.0">
+        <path android:name="path_2" android:pathData="M 89.453 46.393 C 107.231 35.974 127.923 30 150 30 C 172.077 30 192.769 35.974 210.547 46.393 M 89.453 253.607 C 53.898 232.769 30 194.153 30 150 M 270 150 C 270 194.153 246.102 232.769 210.547 253.607" android:strokeColor="#ff43c8f5" android:strokeWidth="1.0" android:strokeAlpha="0.1" />
+    </group>
+    <path android:name="path_3" android:pathData="M 150 40 C 120.837 40 92.839 51.597 72.218 72.218 C 51.597 92.839 40 120.837 40 150 C 40 179.163 51.597 207.161 72.218 227.782 C 92.839 248.403 120.837 260 150 260 C 179.163 260 207.161 248.403 227.782 227.782 C 248.403 207.161 260 179.163 260 150 C 260 120.837 248.403 92.839 227.782 72.218 C 207.161 51.597 179.163 40 150 40 Z" android:strokeColor="#ff43c8f5" android:strokeWidth="1.0" android:strokeAlpha="0.1" />
+</vector>

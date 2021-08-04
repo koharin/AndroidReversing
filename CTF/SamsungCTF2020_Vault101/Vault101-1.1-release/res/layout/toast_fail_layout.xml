@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/custom_toast_container" android:background="@drawable/background_toast_fail" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_warning" android:tint="@color/colorErrorAccent" android:layout_marginEnd="8.0dip" />
+    <TextView android:textColor="@color/colorErrorAccent" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/fail" style="@style/TextAppearance.AppCompat.Subhead" />
+</LinearLayout>

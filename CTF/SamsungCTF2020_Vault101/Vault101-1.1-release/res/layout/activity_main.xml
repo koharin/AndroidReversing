@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/background_gradient" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:scaleType="centerCrop" android:adjustViewBounds="true" app:srcCompat="@drawable/background_anim" />
+    <ImageView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerCrop" android:adjustViewBounds="true" app:srcCompat="@drawable/ic_circuit" />
+    <ImageView android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="42.0dip" android:alpha="0.6" android:scaleX="0.45" android:scaleY="0.45" app:srcCompat="@drawable/sctf_logo" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Space android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" app:endIconMode="clear_text" app:startIconDrawable="@drawable/ic_flag" style="@style/AppTheme.TextInputLayout">
+            <com.google.android.material.textfield.TextInputEditText android:textColor="@android:color/white" android:gravity="center" android:layout_gravity="center" android:id="@id/editText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/flag" android:singleLine="true" android:inputType="textPersonName" android:textCursorDrawable="@drawable/cursor" android:focusedByDefault="true" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button android:enabled="false" android:layout_gravity="center" android:id="@id/button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/verify" android:layout_weight="0.0" style="@style/AppTheme.Button" />
+        <Space android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="3.0" />
+    </LinearLayout>
+</FrameLayout>
